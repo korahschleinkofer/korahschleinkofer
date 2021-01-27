@@ -1,4 +1,5 @@
 body {
+  /* default color */
   background: rgb(79, 116, 91);
   text-align: center;
 }
@@ -9,4 +10,15 @@ img {
   width: 160px;
   height: 200px;
   float: center;
+}
+.bg0 {
+  background: LightSlateGray;
+}
+
+.bg1 {
+  background: Darkslategray;
+}
+
+.bg2 {
+  background: lightcoral;
 }
