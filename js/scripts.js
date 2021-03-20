@@ -7,7 +7,14 @@ var max = 3;
 numRand = Math.floor(Math.random() * max);
 
 //Get Element
-let pageBackground = document.querySelector("body");
+let pageBackground = document.querySelector("header");
 
 //set class name from stored values
 pageBackground.className = background[numRand];
+
+lightGallery(document.getElementById("gallery"));
+
+$(document).on("click", '[data-toggle="lightbox"]', function (event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});

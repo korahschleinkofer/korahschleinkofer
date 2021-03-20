@@ -1,24 +1,90 @@
-body {
+body,
+html {
   /* default color */
-  background: rgb(79, 116, 91);
+  background: rgb(255, 255, 255);
   text-align: center;
+  padding: 2px;
+}
+header {
+  height: 400px;
+  background-color: lightgray;
+  border-radius: 15px;
 }
 h1 {
-  text-align: center;
+  text-align: left;
+  margin-left: 100px;
+  color: lightgray;
+  padding: 50px;
 }
 img {
   width: 160px;
   height: 200px;
-  float: center;
+  float: right;
+  border-radius: 10px;
+  margin: 30px;
 }
 .bg0 {
   background: LightSlateGray;
 }
 
 .bg1 {
-  background: Darkslategray;
+  background: rgb(247, 154, 142);
 }
 
 .bg2 {
-  background: lightcoral;
+  background: rgb(247, 232, 145);
+}
+
+figure {
+  width: 300px;
+  position: space-between;
+  float: wrap;
+  height: 300px;
+  flex-direction: row;
+  margin-left: 4em;
+  margin-bottom: 4em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.gallery {
+  margin: 15px;
+  display: float;
+}
+.gallery img {
+  width: 300px;
+  height: 200px;
+  transition-duration: 2ms;
+}
+
+.gallery img:hover {
+}
+
+button {
+  background-color: #800020;
+  color: #fffdd0;
+  font-family: "Asap", sans-serif;
+  height: 30px;
+  border: solid 2px #c0c0c0;
+  padding: 5px;
+  position: center;
+  margin-left: 210px;
+}
+
+container {
+  height: 800px;
+}
+
+.box {
+  background-color: whitesmoke;
+  height: 200px;
+  width: flex;
+  padding: 15px;
+  height: 200px;
+}
+.box p {
+  color: black;
+}
+footer {
+  height: 300px;
 }
